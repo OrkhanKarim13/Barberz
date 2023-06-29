@@ -1,0 +1,16 @@
+@mixin learnbtn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+    border-radius: 30px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 400;
+    width: max-content;
+    align-self: center;
+    margin: 3rem 0;
+}
+   

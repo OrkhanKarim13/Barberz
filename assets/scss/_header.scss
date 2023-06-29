@@ -1,0 +1,39 @@
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1488;
+    padding: 1rem;
+    .container {
+      .navBar {
+        width: 100%;
+        display: flex;
+        line-height: 1.7;
+        font-weight: 300;
+        font-size: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        .logodiv {
+          width: 255px;
+          height: 46px;
+          .logo {
+            width: 100%;
+            font-size: 1.7rem;
+            color: #fff;
+          }
+        }
+        .navList {
+          display: flex;
+          .navItem {
+            padding: 0 15px;
+            margin: 20px 0;
+            a {
+              color: #fff;
+            }
+            .active {
+              color: #dc3545;
+            }
+          }
+        }
+      }
+    }
+  }
